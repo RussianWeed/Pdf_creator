@@ -8,11 +8,21 @@
     tools:context=".MainActivity">
 
 
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/button"
+        android:text="Gallery"
         android:layout_gravity="center"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/create_pdf"
+        android:text="Create"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"/>
 
 
     <GridView
@@ -20,7 +30,5 @@
         android:layout_height="match_parent"
         android:numColumns="3"
         android:id="@+id/grid_view" />
-
-
 
 </LinearLayout>
